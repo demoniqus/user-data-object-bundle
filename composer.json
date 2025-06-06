@@ -15,7 +15,7 @@
         "php": ">=8.0",
         "ext-ctype": "*",
         "ext-iconv": "*",
-        "demoniqus/data-object-bundle": "dev-master",
+        "demoniqus/data-object-bundle": "*",
         "symfony/console": "7.3.*",
         "symfony/dotenv": "7.3.*",
         "symfony/flex": "^2",
