@@ -1,0 +1,55 @@
+{
+    "name": "demoniqus/user-data-object-bundle",
+    "type": "symfony-bundle",
+    "version": "1.0.0",
+    "license": "proprietary",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "authors": [
+        {
+            "name": "Antipov Dmtriy",
+            "email": "demoniqus@mail.ru"
+        }
+    ],
+    "require": {
+        "php": ">=8.0",
+        "ext-ctype": "*",
+        "ext-iconv": "*",
+        "demoniqus/data-object-bundle": "dev-master",
+        "symfony/console": "7.3.*",
+        "symfony/dotenv": "7.3.*",
+        "symfony/flex": "^2",
+        "symfony/framework-bundle": "7.3.*",
+        "symfony/runtime": "7.3.*",
+        "symfony/yaml": "7.3.*"
+    },
+    "config": {
+        "sort-packages": true,
+        "allow-plugins": {
+            "symfony/flex": true,
+            "symfony/runtime": true
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Demoniqus\\UserDataObjectBundle\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Demoniqus\\UserDataObjectBundle\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "symfony": {
+            "allow-contrib": false,
+            "require": ">=5.4"
+        }
+    },
+    "repositories": {
+        "data-object": {
+            "type": "vcs",
+            "url": "https://github.com/demoniqus/data-object-bundle.git"
+        }
+    }
+}
