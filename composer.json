@@ -1,10 +1,11 @@
 {
     "name": "demoniqus/user-data-object-bundle",
     "type": "symfony-bundle",
-    "version": "1.0.3",
+    "version": "1.0.5",
     "license": "proprietary",
     "minimum-stability": "dev",
     "prefer-stable": true,
+    "description": "this is bundle description",
     "authors": [
         {
             "name": "Antipov Dmtriy",
