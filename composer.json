@@ -15,7 +15,7 @@
         "php": ">=8.0",
         "ext-ctype": "*",
         "ext-iconv": "*",
-        "demoniqus/data-object-bundle": "^1.0",
+        "demoniqus/data-object-bundle": "^1.0.0",
         "symfony/console": "7.3.*",
         "symfony/dotenv": "7.3.*",
         "symfony/flex": "^2",
@@ -45,12 +45,6 @@
             "allow-contrib": false,
             "require": ">=5.4"
         }
-    },
-    "repositories": {
-        "data-object-bundle": {
-            "packagist": false,
-            "type": "vcs",
-            "url": "https://github.com/demoniqus/data-object-bundle.git"
-        }
     }
+
 }
