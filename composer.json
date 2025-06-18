@@ -1,7 +1,7 @@
 {
     "name": "demoniqus/user-data-object-bundle",
     "type": "symfony-bundle",
-    "version": "1.0.0",
+    "version": "1.0.3",
     "license": "proprietary",
     "minimum-stability": "dev",
     "prefer-stable": true,
